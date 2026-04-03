@@ -1,0 +1,21 @@
+
+<div class="heading-block">
+  <h2>{{ block.settings.heading }}</h2>
+</div>
+{% schema %}
+{
+  "name": "Heading Block",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    }   
+ ],
+"presets": [
+    {
+      "name": "Heading"
+    }
+  ]
+}
+{% endschema %}
