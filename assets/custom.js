@@ -1,6 +1,6 @@
 $(document).ready(function() {
   if ($.fn.zoom) {
-    $('.image-block img').zoom({
+    $('.image-block').zoom({
       url: 'xbox-image.png'
     });
   } else {
