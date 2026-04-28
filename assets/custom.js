@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-  jQuery('.image-block').zoom({url: 'files/gaming-console-image.png', 
+  jQuery('.image-block').zoom({url: 'cdn/shop/files/gaming-console-image.png', 
     on: 'click'
   });
 });
