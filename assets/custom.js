@@ -1,3 +1,3 @@
 jQuery(document).ready(function(){
-  jQuery('.image-block'').zoom({url: 'xbox-image.png'});
+  jQuery('.image-block img').zoom({url: 'xbox-image.png'});
 });
