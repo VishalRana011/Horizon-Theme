@@ -514,7 +514,7 @@
         "image_iUnMbf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/xbox-image.png",
+            "image": "shopify://shop_images/gaming-console-image.png",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
