@@ -1,0 +1,148 @@
+<div class="section-background color-{{ section.settings.color_scheme }}"></div>
+<div class="section section--full-width image-with-text-section color-{{ section.settings.color_scheme }}" data-testid="image-with-text-{{ section.id }}">
+  <div class="section-content-wrapper spacing-style size-style border-style image-with-text__wrapper">
+    <div class="image-with-text__media {% if section.settings.layout == 'media_right' %}image-with-text__media--order-last{% endif %}">
+      {% if section.settings.image != blank %}
+        <img
+          class="image-with-text__image"
+          src="{{ section.settings.image | img_url: '2048x2048' }}"
+          alt="{{ section.settings.image.alt | escape }}"
+          loading="lazy"
+        />
+      {% endif %}
+    </div>
+
+    <div class="image-with-text__content">
+      {% if section.settings.title != blank %}
+        <h2 class="image-with-text__heading">{{ section.settings.title }}</h2>
+      {% endif %}
+
+      {% if section.settings.text != blank %}
+        <div class="rte image-with-text__text">{{ section.settings.text }}</div>
+      {% endif %}
+
+      {% if section.settings.button_text != blank and section.settings.button_link != blank %}
+        <a href="{{ section.settings.button_link }}" class="button image-with-text__button">{{ section.settings.button_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% stylesheet %}
+  .image-with-text__wrapper {
+    display: grid;
+    gap: 32px;
+  }
+
+  .image-with-text__media,
+  .image-with-text__content {
+    min-width: 0;
+  }
+
+  .image-with-text__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .image-with-text__heading {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+
+  .image-with-text__text {
+    margin-bottom: 20px;
+  }
+
+  .image-with-text__button {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 750px) {
+    .image-with-text__wrapper {
+      grid-template-columns: minmax(320px, 1fr) minmax(320px, 1fr);
+      align-items: center;
+    }
+
+    .image-with-text__media--order-last {
+      order: 2;
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Image with text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "info": "Add a short paragraph or description."
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Image position",
+      "options": [
+        {
+          "value": "media_left",
+          "label": "Image left"
+        },
+        {
+          "value": "media_right",
+          "label": "Image right"
+        }
+      ],
+      "default": "media_left"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        {
+          "value": "background-1",
+          "label": "Background 1"
+        },
+        {
+          "value": "background-2",
+          "label": "Background 2"
+        },
+        {
+          "value": "background-3",
+          "label": "Background 3"
+        }
+      ],
+      "default": "background-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with text"
+    }
+  ]
+}
+{% endschema %}
