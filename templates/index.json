@@ -677,6 +677,19 @@
         "padding-block-start": 40,
         "padding-block-end": 40
       }
+    },
+    "image_with_text_geqMPj": {
+      "type": "image-with-text",
+      "name": "Image & text",
+      "settings": {
+        "image": "shopify://shop_images/xbox-image.webp",
+        "title": "Our Product",
+        "text": "Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.",
+        "button_text": "Button",
+        "button_link": "#",
+        "layout": "media_left",
+        "color_scheme": "background-1"
+      }
     }
   },
   "order": [
@@ -684,6 +697,7 @@
     "product_list_fa6P9H",
     "section_RdQxg7",
     "hero_YQXdVE",
-    "section_BLNWjG"
+    "section_BLNWjG",
+    "image_with_text_geqMPj"
   ]
 }
