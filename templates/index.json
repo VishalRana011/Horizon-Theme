@@ -1907,7 +1907,7 @@
         "mobile_columns": "1",
         "section_width": "page-width",
         "columns_gap": 12,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "icons_style": "chevron",
         "icons_shape": "circle",
         "padding-block-start": 48,
