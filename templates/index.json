@@ -1564,7 +1564,7 @@
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 12,
                 "inherit_color_scheme": true,
@@ -1587,9 +1587,10 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/image_55.png",
                     "link": "",
-                    "image_ratio": "adapt",
-                    "width": "fill",
+                    "image_ratio": "portrait",
+                    "width": "fit-content",
                     "custom_width": 100,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -1609,11 +1610,11 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>Uncompromising standards </p>",
+                    "text": "<p>Outdoor Plants</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h5",
+                    "type_preset": "h3",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -1631,29 +1632,18 @@
                   },
                   "blocks": {}
                 },
-                "text_Lx3EEW": {
-                  "type": "text",
-                  "name": "t:names.text",
+                "button_xNMEfm": {
+                  "type": "button",
+                  "name": "t:names.button",
                   "settings": {
-                    "text": "<p>Expert construction and an impeccable finish</p>",
+                    "label": "Shop now",
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "link",
                     "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
                   },
                   "blocks": {}
                 }
@@ -1661,7 +1651,7 @@
               "block_order": [
                 "image_4X9hdj",
                 "text_hRLf3y",
-                "text_Lx3EEW"
+                "button_xNMEfm"
               ]
             },
             "card_wq3mtB": {
@@ -1786,7 +1776,7 @@
         "columns": 3,
         "mobile_columns": "1",
         "section_width": "page-width",
-        "columns_gap": 12,
+        "columns_gap": 36,
         "color_scheme": "scheme-1",
         "icons_style": "chevron",
         "icons_shape": "circle",
