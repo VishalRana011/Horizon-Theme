@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
-  jQuery('.image-block').zoom({url: 'cdn/shop/files/gaming-console-image.png',duration: 120
-  });
-});
+// jQuery(document).ready(function(){
+//   jQuery('.image-block').zoom({url: 'cdn/shop/files/gaming-console-image.png',duration: 120
+//   });
+// });
