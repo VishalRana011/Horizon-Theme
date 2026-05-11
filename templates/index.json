@@ -881,7 +881,7 @@
         "group_EFpbNY": {
           "type": "group",
           "settings": {
-            "content_direction": "column",
+            "content_direction": "row",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
@@ -921,7 +921,8 @@
               "type": "icon",
               "settings": {
                 "icon": "silhouette",
-                "width": 32,
+                "image_upload": "shopify://shop_images/image_18.png",
+                "width": 124,
                 "link": "",
                 "open_in_new_tab": false
               },
@@ -968,6 +969,7 @@
               "blocks": {
                 "text_3jw8pC": {
                   "type": "text",
+                  "disabled": true,
                   "settings": {
                     "text": "<h2>A team with a goal</h2>",
                     "width": "100%",
@@ -994,13 +996,13 @@
                 "text_URDmdT": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Real people making great products</p>",
+                    "text": "<p>Quality <br/>Plants</p>",
                     "width": "100%",
                     "max_width": "normal",
-                    "alignment": "center",
-                    "type_preset": "rte",
+                    "alignment": "left",
+                    "type_preset": "custom",
                     "font": "var(--font-body--family)",
-                    "font_size": "1rem",
+                    "font_size": "1.5rem",
                     "line_height": "normal",
                     "letter_spacing": "normal",
                     "case": "none",
