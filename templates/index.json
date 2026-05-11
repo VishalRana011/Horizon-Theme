@@ -1445,7 +1445,7 @@
             "inherit_color_scheme": true,
             "color_scheme": "",
             "height": "fit",
-            "position": "top",
+            "position": "center",
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
@@ -1465,7 +1465,7 @@
                 "horizontal_alignment": "flex-start",
                 "vertical_alignment": "center",
                 "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
+                "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 12,
                 "inherit_color_scheme": true,
@@ -1488,9 +1488,10 @@
                   "type": "image",
                   "name": "t:names.image",
                   "settings": {
+                    "image": "shopify://shop_images/image_54.png",
                     "link": "",
-                    "image_ratio": "adapt",
-                    "width": "fill",
+                    "image_ratio": "portrait",
+                    "width": "fit-content",
                     "custom_width": 100,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
@@ -1510,11 +1511,11 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>Artistry in action </p>",
+                    "text": "<p>Indoor Plants</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h5",
+                    "type_preset": "h3",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -1532,29 +1533,18 @@
                   },
                   "blocks": {}
                 },
-                "text_dxqtiq": {
-                  "type": "text",
-                  "name": "t:names.text",
+                "button_6QyfgE": {
+                  "type": "button",
+                  "name": "t:names.button",
                   "settings": {
-                    "text": "<p>Bold style that's recognizable anywhere</p>",
+                    "label": "Shop now",
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "link",
                     "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
                   },
                   "blocks": {}
                 }
@@ -1562,7 +1552,7 @@
               "block_order": [
                 "image_B3CEVW",
                 "text_xG6jVj",
-                "text_dxqtiq"
+                "button_6QyfgE"
               ]
             },
             "card_pK4yAV": {
@@ -1782,122 +1772,12 @@
                 "text_tTJAAV",
                 "text_j4QrfB"
               ]
-            },
-            "card_783MWR": {
-              "type": "_card",
-              "name": "t:names.card",
-              "settings": {
-                "content_direction": "column",
-                "vertical_on_mobile": true,
-                "horizontal_alignment": "flex-start",
-                "vertical_alignment": "center",
-                "align_baseline": false,
-                "horizontal_alignment_flex_direction_column": "flex-start",
-                "vertical_alignment_flex_direction_column": "center",
-                "gap": 12,
-                "inherit_color_scheme": true,
-                "color_scheme": "",
-                "background_media": "none",
-                "aspect_ratio": "adapt",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
-                "overlay_style": "solid",
-                "gradient_direction": "to top",
-                "link": "",
-                "open_in_new_tab": false,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0
-              },
-              "blocks": {
-                "image_VqtddP": {
-                  "type": "image",
-                  "name": "t:names.image",
-                  "settings": {
-                    "link": "",
-                    "image_ratio": "adapt",
-                    "width": "fill",
-                    "custom_width": 100,
-                    "width_mobile": "fill",
-                    "custom_width_mobile": 100,
-                    "height": "fit",
-                    "border": "none",
-                    "border_width": 1,
-                    "border_opacity": 100,
-                    "border_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_bPCrgQ": {
-                  "type": "text",
-                  "name": "t:names.heading",
-                  "settings": {
-                    "text": "<h2>Quality you can feel</h2>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h5",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "text_AtTDNU": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Authentic materials, no compromises </p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "image_VqtddP",
-                "text_bPCrgQ",
-                "text_AtTDNU"
-              ]
             }
           },
           "block_order": [
             "card_4aFcCx",
             "card_pK4yAV",
-            "card_wq3mtB",
-            "card_783MWR"
+            "card_wq3mtB"
           ]
         }
       },
