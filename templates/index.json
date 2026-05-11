@@ -150,7 +150,7 @@
         "slide_height": "small",
         "content_position": "on-media",
         "color_scheme": "scheme-1",
-        "icons_style": "arrows_large",
+        "icons_style": "none",
         "icons_shape": "none",
         "slideshow_controls_style": "dots",
         "autoplay": false,
