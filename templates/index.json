@@ -311,7 +311,8 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-end": 40,
+        "custom_class": ""
       }
     },
     "section_RdQxg7": {
@@ -373,7 +374,8 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 20,
-        "padding-block-end": 20
+        "padding-block-end": 20,
+        "custom_class": "dg"
       }
     },
     "product_list_fa6P9H": {
@@ -1101,7 +1103,8 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 24,
-        "padding-block-end": 24
+        "padding-block-end": 24,
+        "custom_class": ""
       }
     },
     "hero_YQXdVE": {
@@ -1383,7 +1386,8 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 40,
-        "padding-block-end": 40
+        "padding-block-end": 40,
+        "custom_class": ""
       }
     },
     "image_with_text_geqMPj": {
@@ -2214,7 +2218,8 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-end": 48,
+        "custom_class": ""
       }
     },
     "section_GEBJyy": {
@@ -2618,7 +2623,8 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 48,
-        "padding-block-end": 80
+        "padding-block-end": 80,
+        "custom_class": ""
       }
     },
     "section_PaG9Ye": {
@@ -2707,7 +2713,8 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 40,
-        "padding-block-end": 60
+        "padding-block-end": 60,
+        "custom_class": ""
       }
     },
     "section_PRyzRP": {
@@ -3033,7 +3040,8 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-end": 48,
+        "custom_class": ""
       }
     }
   },
