@@ -71,3 +71,8 @@ body .section-rich_text .custom-section-content {
     text-transform: uppercase;
     border-bottom: 5px solid;
 }
+.section-image_blocks .section-content-wrapper {
+    border: 2px dashed;
+    padding-left: 40px;
+    padding-right: 40px;
+}
