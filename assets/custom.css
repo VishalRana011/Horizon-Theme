@@ -122,6 +122,9 @@ footer .group-block p {
 .section-image_blocks .section-content-wrapper .text-block.custom p {
     font-size: 15px;
 }
+body .section-image_text .group-block-content {
+    max-width: 85%;
+}
 }
 
 @media (max-width: 480px) {
