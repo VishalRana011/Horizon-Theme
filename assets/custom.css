@@ -91,7 +91,16 @@ body .section-rich_text .custom-section-content {
     border-radius: 40px;
 }
 
+/* Responsive Styles */
 
+@media (max-width: 768px) {
+body .section-rich_text {
+    max-width: 90%;
+}
+.section-rich_text .text-block p {
+    font-size: 20px;
+}
+}
 
 @media (max-width: 480px) {
 .slideshow-section .text-block p {
@@ -120,5 +129,9 @@ body .section-rich_text .text-block p {
 }
 .section-reviews .image-block img.image-block__image {
     width: 20%;
+}
+.section-image_blocks .section-content-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
 }
 }
