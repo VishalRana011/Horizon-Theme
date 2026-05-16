@@ -17,7 +17,7 @@ body .section-image_text .group-block-content {
     margin: 0 auto;
 }
 body .section-rich_text {
-    max-width: 70%;
+    max-width: 78%;
     margin: 0 auto;
     border: 2px dashed #044108;
     border-radius: 100px;
@@ -30,4 +30,7 @@ body .section-rich_text .custom-section-content {
     border: none;
     background: #149253;
     margin: 30px 0;
+}
+.ui-test-product-list .product-card__content {
+    border: 5px solid #149253;
 }
