@@ -1551,52 +1551,18 @@
                   },
                   "blocks": {}
                 },
-                "text_xG6jVj": {
-                  "type": "text",
-                  "name": "t:names.heading",
+                "custom_liquid_RLrUKn": {
+                  "type": "custom-liquid",
+                  "name": "t:names.custom_liquid",
                   "settings": {
-                    "text": "<p>Indoor Plants</p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h3",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "button_6QyfgE": {
-                  "type": "button",
-                  "name": "t:names.button",
-                  "settings": {
-                    "label": "Shop now",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
-                    "style_class": "link",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
+                    "custom_liquid": "<h3>Indoor Plants</h3>\n<span class=\"link-button\">Shop Now</span>"
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
                 "image_B3CEVW",
-                "text_xG6jVj",
-                "button_6QyfgE"
+                "custom_liquid_RLrUKn"
               ]
             },
             "card_pK4yAV": {
@@ -1650,52 +1616,18 @@
                   },
                   "blocks": {}
                 },
-                "text_hRLf3y": {
-                  "type": "text",
-                  "name": "t:names.heading",
+                "custom_liquid_L3wMNn": {
+                  "type": "custom-liquid",
+                  "name": "t:names.custom_liquid",
                   "settings": {
-                    "text": "<p>Outdoor Plants</p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h3",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "button_xNMEfm": {
-                  "type": "button",
-                  "name": "t:names.button",
-                  "settings": {
-                    "label": "Shop now",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
-                    "style_class": "link",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
+                    "custom_liquid": "<h3>Outdoor Plants</h3>\n<span class=\"link-button\">Shop Now</span>"
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
                 "image_4X9hdj",
-                "text_hRLf3y",
-                "button_xNMEfm"
+                "custom_liquid_L3wMNn"
               ]
             },
             "card_wq3mtB": {
@@ -1749,52 +1681,18 @@
                   },
                   "blocks": {}
                 },
-                "text_tTJAAV": {
-                  "type": "text",
-                  "name": "t:names.heading",
+                "custom_liquid_Hd3LdY": {
+                  "type": "custom-liquid",
+                  "name": "t:names.custom_liquid",
                   "settings": {
-                    "text": "<p>Vegetables Plants</p>",
-                    "width": "fit-content",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "h3",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
-                "button_iTKqTJ": {
-                  "type": "button",
-                  "name": "t:names.button",
-                  "settings": {
-                    "label": "Shop now",
-                    "link": "shopify://collections/all",
-                    "open_in_new_tab": false,
-                    "style_class": "link",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
+                    "custom_liquid": "<h3>Vegetables Plants</h3>\n<span class=\"link-button\">Shop Now</span>"
                   },
                   "blocks": {}
                 }
               },
               "block_order": [
                 "image_jcdM4Y",
-                "text_tTJAAV",
-                "button_iTKqTJ"
+                "custom_liquid_Hd3LdY"
               ]
             }
           },
