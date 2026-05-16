@@ -87,3 +87,6 @@ body .section-rich_text .custom-section-content {
     outline: none !important;
     color: #6D6D6D !important;
 }
+.section-newsletter button.email-signup__button {
+    border-radius: 40px;
+}
