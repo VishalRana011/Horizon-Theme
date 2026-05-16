@@ -12,6 +12,7 @@
     height: 30px;
     width: 20px;
 }
-body .slideshow-section .slideshow-container .button {
-    border-radius: 50px !important;
+body .section-image_text .group-block-content {
+    max-width: 65%;
+    margin: 0 auto;
 }
