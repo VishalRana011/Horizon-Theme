@@ -1,3 +1,14 @@
 .header-menu__inner .menu-list__link-title {
-    padding: 0 22px;
+    margin: 0 22px;
+    padding: 0;
+    height: 100%;
+    align-content: center;
+}
+.header-menu__inner .menu-list__link--active .menu-list__link-title {
+    color: #149253;
+    border-bottom: 6px solid;
+}
+.header__columns .header-actions__action svg {
+    height: 30px;
+    width: 20px;
 }
