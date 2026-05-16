@@ -91,7 +91,7 @@
             "button_rBiyn3": {
               "type": "button",
               "settings": {
-                "label": "Shop Collection",
+                "label": "SHOP COLLECTION",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
