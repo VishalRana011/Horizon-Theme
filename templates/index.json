@@ -609,7 +609,8 @@
         "gap": 28,
         "color_scheme": "scheme-1",
         "padding-block-start": 48,
-        "padding-block-end": 48
+        "padding-block-end": 48,
+        "custom_class": "homepage_collection"
       }
     },
     "section_3Eqd3U": {
