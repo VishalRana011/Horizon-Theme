@@ -41,3 +41,10 @@ body .section-rich_text .custom-section-content {
     border-radius: 0 !important;
     background: #149253;
 }
+.ui-test-product-list .homepage_collection .product-card__content .add-to-cart-button.quick-add__button {
+    display: none;
+}
+.section-text-and-icon {
+    border-top: 2px dashed;
+    border-bottom: 2px dashed;
+}
