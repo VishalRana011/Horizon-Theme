@@ -90,3 +90,29 @@ body .section-rich_text .custom-section-content {
 .section-newsletter button.email-signup__button {
     border-radius: 40px;
 }
+
+
+
+@media and screen (max-width: 480px) {
+.slideshow-section .text-block p {
+    font-size: 25px;
+}
+body .section-image_text .group-block-content {
+    max-width: 100%;
+ }
+ body .section-rich_text .custom-section-content {
+    margin: 15px 0;
+}
+body .section-rich_text {
+    max-width: 90%;
+}
+.section-text-and-icon .group-block-content {
+    align-items: center;
+}
+.section-text-and-icon .group-block-content p {
+    text-align: center;
+}
+.section-text-and-icon .group-block-content p br {
+    display: none;
+}
+}
