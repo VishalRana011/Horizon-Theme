@@ -16,3 +16,9 @@ body .section-image_text .group-block-content {
     max-width: 65%;
     margin: 0 auto;
 }
+body .section-rich_text {
+    max-width: 70%;
+    margin: 0 auto;
+    border: 2px dashed #044108;
+    border-radius: 100px;
+}
