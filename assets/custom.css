@@ -28,4 +28,6 @@ body .section-rich_text .custom-section-content .overlay {
 }
 body .section-rich_text .custom-section-content {
     border: none;
+    background: #149253;
+    margin: 30px 0;
 }
