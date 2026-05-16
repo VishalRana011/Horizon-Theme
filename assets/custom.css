@@ -31,9 +31,13 @@ body .section-rich_text .custom-section-content {
     background: #149253;
     margin: 30px 0;
 }
-.ui-test-product-list .product-card__content {
+.ui-test-product-list .homepage_collection .product-card__content {
     border: 5px solid #149253;
 }
-.ui-test-product-list .product-card__content .card-gallery {
+.ui-test-product-list .homepage_collection .product-card__content .card-gallery {
     padding: 20px 20px 0 20px;
+}
+.ui-test-product-list .homepage_collection .product-card__content .add-to-cart-button {
+    border-radius: 0 !important;
+    background: #149253;
 }
