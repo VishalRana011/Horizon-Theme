@@ -312,7 +312,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 40,
         "padding-block-end": 40,
-        "custom_class": ""
+        "custom_class": "image_text"
       }
     },
     "section_RdQxg7": {
@@ -375,7 +375,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 20,
         "padding-block-end": 20,
-        "custom_class": ""
+        "custom_class": "rich_text"
       }
     },
     "product_list_fa6P9H": {
@@ -1104,7 +1104,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 24,
         "padding-block-end": 24,
-        "custom_class": ""
+        "custom_class": "text-and-icon"
       }
     },
     "hero_YQXdVE": {
@@ -2219,7 +2219,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 48,
         "padding-block-end": 48,
-        "custom_class": ""
+        "custom_class": "reviews"
       }
     },
     "section_GEBJyy": {
@@ -2624,7 +2624,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 48,
         "padding-block-end": 80,
-        "custom_class": ""
+        "custom_class": "image_blocks"
       }
     },
     "section_PaG9Ye": {
@@ -2714,7 +2714,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 40,
         "padding-block-end": 60,
-        "custom_class": ""
+        "custom_class": "newsletter"
       }
     },
     "section_PRyzRP": {
@@ -3041,7 +3041,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 48,
         "padding-block-end": 48,
-        "custom_class": ""
+        "custom_class": "contact_us"
       }
     }
   },
