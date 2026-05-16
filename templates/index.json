@@ -264,7 +264,7 @@
             "image": "shopify://shop_images/image_11.png",
             "link": "",
             "image_ratio": "landscape",
-            "width": "fill",
+            "width": "custom",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
