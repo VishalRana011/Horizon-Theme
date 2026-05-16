@@ -80,10 +80,9 @@ body .section-rich_text .custom-section-content {
 .section-image_blocks {
     margin-bottom: 45px;
 }
-.section-newsletter .email-signup__input::placeholder,
-.section-newsletter .email-signup__input::input {
+.section-newsletter .email-signup__input::placeholder {
     color: #000 !important;
 }
-.section-newsletter .email-signup__input:focus::placeholder {
+.section-newsletter .email-signup__input:focus {
     outline: none !important;
 }
