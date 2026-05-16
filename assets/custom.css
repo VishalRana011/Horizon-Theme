@@ -119,6 +119,9 @@ footer .group-block p {
 .section-carousel slideshow-slides {
     justify-content: center;
 }
+.section-image_blocks .section-content-wrapper .text-block.custom p {
+    font-size: 15px;
+}
 }
 
 @media (max-width: 480px) {
