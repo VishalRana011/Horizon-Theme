@@ -116,6 +116,9 @@ body .section-rich_text .text-block p {
 footer .group-block p {
     font-size: 14px;
 }
+.section-carousel slideshow-slides {
+    justify-content: center;
+}
 }
 
 @media (max-width: 480px) {
