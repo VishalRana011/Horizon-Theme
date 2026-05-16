@@ -97,7 +97,7 @@ body .section-rich_text .custom-section-content {
 body .section-rich_text {
     max-width: 90%;
 }
-.section-rich_text .text-block p {
+body .section-rich_text .text-block p {
     font-size: 20px;
 }
 }
