@@ -93,7 +93,7 @@ body .section-rich_text .custom-section-content {
 
 
 
-@media and screen (max-width: 480px) {
+@media (max-width: 480px) {
 .slideshow-section .text-block p {
     font-size: 25px;
 }
