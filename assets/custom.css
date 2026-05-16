@@ -22,3 +22,10 @@ body .section-rich_text {
     border: 2px dashed #044108;
     border-radius: 100px;
 }
+body .section-rich_text .custom-section-content .overlay {
+    max-width: 90%;
+    margin: 10px auto;
+}
+body .section-rich_text .custom-section-content {
+    border: none;
+}
