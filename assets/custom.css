@@ -100,6 +100,22 @@ body .section-rich_text {
 body .section-rich_text .text-block p {
     font-size: 20px;
 }
+.section-carousel .card__inner .custom--liquid {
+    padding: 15px 20px;
+        width: 90%;
+}
+.section-carousel .card__inner .custom--liquid h3 {
+    font-size: 15px;
+}
+.section-contact_us .text-block.h5 p {
+    font-size: 32px;
+}
+.section-contact_us .text-block p {
+    font-size: 20px;
+}
+footer .group-block p {
+    font-size: 14px;
+}
 }
 
 @media (max-width: 480px) {
