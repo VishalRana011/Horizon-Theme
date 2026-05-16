@@ -48,3 +48,6 @@ body .section-rich_text .custom-section-content {
     border-top: 2px dashed;
     border-bottom: 2px dashed;
 }
+.section-text-and-icon .icon-block img {
+    width: 111px !important;
+}
