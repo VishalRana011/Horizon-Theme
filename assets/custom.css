@@ -112,7 +112,13 @@ body .section-rich_text {
 .section-text-and-icon .group-block-content p {
     text-align: center;
 }
-.section-text-and-icon .group-block-content p br {
+.section-text-and-icon .group-block-content p br, .section-reviews .text-block p br {
     display: none;
+}
+body .section-rich_text .text-block p {
+    font-size: 14px;
+}
+.section-reviews .image-block img.image-block__image {
+    width: 20%;
 }
 }
