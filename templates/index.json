@@ -1810,7 +1810,7 @@
         "columns": 3,
         "mobile_columns": "1",
         "section_width": "page-width",
-        "columns_gap": 0,
+        "columns_gap": 36,
         "color_scheme": "scheme-1",
         "icons_style": "chevron",
         "icons_shape": "circle",
