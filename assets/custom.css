@@ -34,3 +34,6 @@ body .section-rich_text .custom-section-content {
 .ui-test-product-list .product-card__content {
     border: 5px solid #149253;
 }
+.ui-test-product-list .product-card__content .card-gallery {
+    padding: 20px 20px 0 20px;
+}

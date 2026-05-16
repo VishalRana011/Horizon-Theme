@@ -8,7 +8,7 @@
 <div
   data-testid="product-list"
   class="
-    section
+    section {{ section.settings.custom_class }}
     section--{{ section.settings.section_width }}
     color-{{ section.settings.color_scheme }}
     section-resource-list
@@ -340,6 +340,11 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom CSS Class"
     }
   ],
   "presets": [
