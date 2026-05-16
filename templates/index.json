@@ -1733,7 +1733,7 @@
                     "image": "shopify://shop_images/image_56.png",
                     "link": "",
                     "image_ratio": "adapt",
-                    "width": "fit-content",
+                    "width": "fill",
                     "custom_width": 100,
                     "width_mobile": "fill",
                     "custom_width_mobile": 100,
