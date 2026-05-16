@@ -59,12 +59,13 @@ body .section-rich_text .custom-section-content {
     bottom: 0;
     background: #fff;
     border-radius: 40px;
-    padding: 10px 35px;
+    padding: 15px 45px;
     margin: 10px;
     text-align: center;
 }
 .section-carousel .card__inner .custom--liquid h3 {
     margin-bottom: 5px;
+    font-size: 28px;
 }
 .section-carousel .card__inner .custom--liquid span.link-button {
     color: #149253;
@@ -75,4 +76,14 @@ body .section-rich_text .custom-section-content {
     border: 2px dashed;
     padding-left: 40px;
     padding-right: 40px;
+}
+.section-image_blocks {
+    margin-bottom: 45px;
+}
+.section-newsletter .email-signup__input::placeholder,
+.section-newsletter .email-signup__input::input {
+    color: #000 !important;
+}
+.section-newsletter .email-signup__input:focus::placeholder {
+    outline: none !important;
 }
