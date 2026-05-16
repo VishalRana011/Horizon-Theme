@@ -81,8 +81,9 @@ body .section-rich_text .custom-section-content {
     margin-bottom: 45px;
 }
 .section-newsletter .email-signup__input::placeholder {
-    color: #000 !important;
+    color: #6D6D6D !important;
 }
 .section-newsletter .email-signup__input:focus {
     outline: none !important;
+    color: #6D6D6D !important;
 }
