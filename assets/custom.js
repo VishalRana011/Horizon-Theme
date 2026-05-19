@@ -2,3 +2,41 @@
 //   jQuery('.image-block').zoom({url: 'cdn/shop/files/gaming-console-image.png',duration: 120
 //   });
 // });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+ 
+  const wrapper = document.querySelector('.section-multicolumn-contact .section-content-wrapper');
+  const cards = document.querySelectorAll('.section-multicolumn-contact .custom-section-content .group-block');
+ 
+  cards.forEach(card => {
+ 
+    card.addEventListener('mouseenter', function () {
+ 
+      // Reset all cards
+      cards.forEach(item => {
+        item.classList.remove('tall-panel__card--expanded');
+        item.classList.add('tall-panel__card--contracted');
+      });
+ 
+      // Expand hovered card
+      this.classList.remove('tall-panel__card--contracted');
+      this.classList.add('tall-panel__card--expanded');
+ 
+    });
+ 
+  });
+ 
+  // Remove all changes when mouse leaves wrapper
+  wrapper.addEventListener('mouseleave', function () {
+ 
+    cards.forEach(item => {
+      item.classList.remove(
+        'tall-panel__card--expanded',
+        'tall-panel__card--contracted'
+      );
+    });
+ 
+  });
+ 
+});
