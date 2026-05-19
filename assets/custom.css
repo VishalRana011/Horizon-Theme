@@ -91,6 +91,44 @@ body .section-rich_text .custom-section-content {
     border-radius: 40px;
 }
 
+
+.section-multicolumn-contact .custom-section-content {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.section-multicolumn-contact .custom-section-content .group-block {
+    transition: width .2s ease-in-out;
+    width: calc(16.666% - 10px) !important;
+}
+
+.section-multicolumn-contact .custom-section-content .group-block::before {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .8)));
+    background: linear-gradient(to bottom, #0000, #000c);
+    bottom: 0;
+    content: "";
+    left: 0;
+    height: 10rem;
+    opacity: 1;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.section-multicolumn-contact .custom-section-content .group-block .image-block {
+    padding-bottom: 200%;
+}
+.section-multicolumn-contact .custom-section-content img.image-block__image {
+    height: 100%;
+    left: 50%;
+    width: auto;
+    position: absolute;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    transform: translate(-50%);
+    -o-object-fit: cover;
+    object-fit: cover;
+}
 /* Responsive Styles */
 
 @media (max-width: 768px) {
