@@ -131,6 +131,14 @@ body .section-rich_text .custom-section-content {
 }
 /* Responsive Styles */
 
+@media only screen and (min-width: 960px) {
+    .tall-panel__card--expanded {
+        width: calc(56.547% - 10px);
+    }
+        .tall-panel__card--contracted {
+        width: calc(8.69% - 10px);
+    }
+}
 @media (max-width: 768px) {
 body .section-rich_text {
     max-width: 90%;
