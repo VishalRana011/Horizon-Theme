@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', function () {
   const wrapper = document.querySelector('.section-multicolumn-contact .section-content-wrapper');
   const cards = document.querySelectorAll('.section-multicolumn-contact .custom-section-content .group-block');
  
+  if (!wrapper || cards.length === 0) {
+    return;
+  }
+ 
   cards.forEach(card => {
  
     card.addEventListener('mouseenter', function () {
