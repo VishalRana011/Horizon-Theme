@@ -97,8 +97,9 @@ body .section-rich_text .custom-section-content {
     padding-right: 3rem;
 }
 .section-multicolumn-contact .custom-section-content .group-block {
+    -webkit-transition: width .2s ease-in-out;
     transition: width .2s ease-in-out;
-    width: calc(16.666% - 10px) !important;
+    width: calc(16.666% - 10px);
 }
 
 .section-multicolumn-contact .custom-section-content .group-block::before {
