@@ -7,7 +7,7 @@
 document.addEventListener('DOMContentLoaded', function () {
  
   const wrapper = document.querySelector('.contact .section-multicolumn-contact .section-content-wrapper');
-  const cards = document.querySelectorAll('.contact .section-multicolumn-contact .custom-section-content .group-block');
+  const cards = document.querySelectorAll('.contact .section-multicolumn-contact .custom-section-content .group-block .image-block');
  
   if (!wrapper || cards.length === 0) {
     return;
