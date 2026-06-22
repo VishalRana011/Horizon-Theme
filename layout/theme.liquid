@@ -116,7 +116,7 @@
       })();
     </script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="{{ 'custom.js' | asset_url }}"></script>
+
 
     <main
       id="MainContent"
@@ -140,5 +140,6 @@
     {% endif %}
 
     {{ 'jquery.zoom.min.js' | asset_url | script_tag }}
+     <script src="{{ 'custom.js' | asset_url }}"></script>
   </body>
 </html>
