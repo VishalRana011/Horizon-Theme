@@ -131,6 +131,7 @@ body .section-rich_text .custom-section-content {
     transform: translate(-50%);
     -o-object-fit: cover;
     object-fit: cover;
+    height: 455px;
 }
 .hover-area {
     width: 200px;
