@@ -130,6 +130,32 @@ body .section-rich_text .custom-section-content {
     -o-object-fit: cover;
     object-fit: cover;
 }
+.hover-area {
+    width: 200px;
+    padding: 20px;
+    background: #eee;
+    cursor: pointer;
+  }
+
+  .floating-box {
+    position: fixed;
+    width: 150px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  .floating-box.show {
+    opacity: 1;
+  }
+
+
+
+
 /* Responsive Styles */
 
 @media only screen and (min-width: 960px) {
