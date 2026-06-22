@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
   hoverArea.addEventListener('mouseleave', () => {
     floatingBox.classList.remove('show');
   });
-  
+  console.log(hoverArea);
   document.addEventListener('mousemove', (e) => {
     floatingBox.style.left = (e.clientX + 15) + 'px';
     floatingBox.style.top = (e.clientY + 15) + 'px';
