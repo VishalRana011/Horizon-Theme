@@ -594,11 +594,23 @@
         "padding-block-end": 48,
         "custom_class": "multicolumn-contact"
       }
+    },
+    "custom_liquid_N4NQtg": {
+      "type": "custom-liquid",
+      "name": "t:names.custom_liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"hover-area\">\n  Hover Here \n</div>\n\n<div class=\"floating-box\">\n  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa\n</div>",
+        "color_scheme": "",
+        "section_width": "page-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     }
   },
   "order": [
     "main",
     "form",
-    "section_NyYatF"
+    "section_NyYatF",
+    "custom_liquid_N4NQtg"
   ]
 }

@@ -44,3 +44,21 @@ document.addEventListener('DOMContentLoaded', function () {
   });
  
 });
+
+
+
+ const hoverArea = document.querySelector('.hover-area');
+  const floatingBox = document.querySelector('.floating-box');
+
+  hoverArea.addEventListener('mouseenter', () => {
+    floatingBox.classList.add('show');
+  });
+
+  hoverArea.addEventListener('mouseleave', () => {
+    floatingBox.classList.remove('show');
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    floatingBox.style.left = (e.clientX + 15) + 'px';
+    floatingBox.style.top = (e.clientY + 15) + 'px';
+  });
