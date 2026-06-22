@@ -160,10 +160,10 @@ body .section-rich_text .custom-section-content {
 /* Responsive Styles */
 
 @media only screen and (min-width: 960px) {
-    .tall-panel__card--expanded {
+    .section-multicolumn-contact .custom-section-content .group-block.tall-panel__card--expanded {
         width: calc(56.547% - 10px) !important;
     }
-        .tall-panel__card--contracted {
+        .section-multicolumn-contact .custom-section-content .group-block.tall-panel__card--contracted {
         width: calc(8.69% - 10px) !important;
     }
 }
