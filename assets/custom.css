@@ -145,6 +145,7 @@ body .section-rich_text .custom-section-content {
     color: white;
     border-radius: 8px;
     pointer-events: none;
+    z-index: 9999;
     opacity: 0;
     transition: opacity 0.2s ease;
   }
