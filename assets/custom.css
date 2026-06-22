@@ -100,6 +100,7 @@ body .section-rich_text .custom-section-content {
     -webkit-transition: width .2s ease-in-out;
     transition: width .2s ease-in-out;
     width: calc(16.666% - 10px);
+    flex: auto;
 }
 
 .section-multicolumn-contact .custom-section-content .group-block::before {
@@ -162,9 +163,11 @@ body .section-rich_text .custom-section-content {
 @media only screen and (min-width: 960px) {
     .section-multicolumn-contact .custom-section-content .group-block.tall-panel__card--expanded {
         width: calc(56.547% - 10px) !important;
+        height: 459px;
     }
         .section-multicolumn-contact .custom-section-content .group-block.tall-panel__card--contracted {
         width: calc(8.69% - 10px) !important;
+        height: 459px;
     }
 }
 @media (max-width: 768px) {
